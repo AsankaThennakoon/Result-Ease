@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:result_ease/screen/ui/onboarding/login.dart';
+import 'package:result_ease/screen/onboarding/login.dart';
 import 'package:result_ease/utils/colors.dart';
 import 'package:result_ease/widgets/custom_text_field.dart';
 

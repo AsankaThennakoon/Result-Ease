@@ -3,7 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:result_ease/main.dart';
-import 'package:result_ease/screen/ui/onboarding/login.dart';
+import 'package:result_ease/screen/onboarding/login.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -22,8 +22,8 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   Future<void> _navigateToLoginScreen() async {
-    // Wait for 2 seconds using Future.delayed
-    await Future.delayed(Duration(seconds: 5));
+    // Wait for 5 seconds using Future.delayed
+    await Future.delayed(const Duration(seconds: 5));
 
     // Navigate to the login screen
     _navigatorKey.currentState!.pushReplacement(
